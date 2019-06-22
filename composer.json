@@ -1,0 +1,21 @@
+{
+    "name": "liftmode/module-custom-blocks",
+    "description": "CustomBlocks module provide access to general/store_information settings",
+    "version": "0.0.1",
+    "require": {
+        "magento/framework": "102.0.*",
+        "php": "~7.1.3||~7.2.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Liftmode\\CustomBlocks\\": ""
+        }
+    }
+}
